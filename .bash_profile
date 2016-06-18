@@ -20,7 +20,7 @@ alias c='clear'                             # c:            Clear terminal displ
 # reloads the prompt, usefull to take new modifications into account
 alias reload="source ~/.bash_profile"
 # grabs the latest .bash_profile file and reloads the prompt
-alias updatebashprofile="curl https://gist.githubusercontent.com/Neema/aa82803cd67fd6984f076f63369b9c04/raw/bbcceec6bae6a05c76abc018854ed857cd5127c5/.bash_profile > ~/.bash_profile && reload"
+alias updatebashprofile="curl https://raw.githubusercontent.com/Neema/dotfiles/master/.bash_profile > ~/.bash_profile && reload"
 
 # non-profile related note
 # edit the motd here:
