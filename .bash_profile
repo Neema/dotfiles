@@ -22,8 +22,21 @@ alias reload="source ~/.bash_profile"
 # grabs the latest .bash_profile file and reloads the prompt
 alias updatebashprofile="curl https://raw.githubusercontent.com/Neema/dotfiles/master/.bash_profile > ~/.bash_profile && reload"
 
-# non-profile related note
+#hide file icons on the desktop
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+#show file icons on the desktop
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+
+
+# Non-Profile Things that I'll keep track of here:
+
 # edit the motd here:
 # sudo nano /etc/motd
+
+# run this to change screenshots save location, replace path
+# defaults write com.apple.screencapture location /path/;killall SystemUIServer
+
+
 
 # if this comment shows up, update works!
