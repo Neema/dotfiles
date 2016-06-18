@@ -15,7 +15,7 @@ alias f='open -a Finder ./'                 # f:            Opens current direct
 alias ~="cd ~"                              # ~:            Go Home
 alias c='clear'                             # c:            Clear terminal display
 
-
+alias gowork='cd ~/Documents/dev'           #gowork:        Set Current Directory to dev work folder
 
 # reloads the prompt, usefull to take new modifications into account
 alias reload="source ~/.bash_profile"
